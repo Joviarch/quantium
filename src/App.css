@@ -1,0 +1,8 @@
+.App{
+    width: 100%;
+    display: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background);
+}

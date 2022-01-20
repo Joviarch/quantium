@@ -1,0 +1,8 @@
+.perfil-container{
+    width: 1240px;
+    padding: 20px;
+    height: 100vh;
+    background-color: var(--background);
+    display: grid;
+    grid-template-areas: "avatar techs" "infos lights";
+}

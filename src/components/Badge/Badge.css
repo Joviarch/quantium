@@ -1,0 +1,19 @@
+.badge-container{
+    width: 120px;
+    height: 40px;
+    border-radius: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+.badge-green{
+    background: #10B981;
+}
+
+.badge-yellow{
+    background: #F2C94C;
+}

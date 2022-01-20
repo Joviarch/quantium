@@ -1,0 +1,33 @@
+.infos-container{
+    width: 320px;
+    height: 260px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 12px;
+    background-color: var(--card);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    grid-area: infos;
+}
+
+.info-group{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-name{
+    color: white;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.info-result{
+    color: white;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 16px;
+    margin-top: 6px;
+}

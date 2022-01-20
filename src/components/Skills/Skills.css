@@ -1,0 +1,64 @@
+.skillField-skills{
+    width: 250px;
+    height: 180px;
+    border-right: 2px solid white;
+}
+
+.skillField-skills-last{
+    width: 250px;
+    height: 180px;
+}
+
+.skillField-skills-title{
+    font-weight: lighter;
+    color: white;
+    font-size: 15px;
+}
+
+.skills{
+    width: 100%;
+    margin-top: 6px;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    flex-wrap: wrap;
+    column-gap: 3px;
+    row-gap: 3px;
+}
+
+.add-skill{
+    width: 50px;
+    height: 50px;
+    border: 1px dotted var(--primary);
+    border-radius: 12px;
+    font-size: 40px;
+    color: var(--primary);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-skill:hover{
+    transition: .8s;
+    color: white;
+    border: 1px solid white;
+}
+
+.skill-teste{
+    width: 55px;
+    height: 55px;
+    border-radius: 8px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.skill-teste:hover{
+    transition: .8s;
+    transform: translateY(-15px);
+}

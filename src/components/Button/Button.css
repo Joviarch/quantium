@@ -1,0 +1,29 @@
+.btn{
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.btn-full{
+    background: var(--button-primary);
+    color: white;
+    font-weight: bolder;
+    padding: 20px 50px;
+}
+
+.btn-auto:active{
+    background: #846adb;
+}
+
+.btn-out{
+    border: 3px solid var(--button-primary);
+    color: white;
+    font-weight: bolder;
+    padding: 17px 47px; 
+}
+
+.btn-out:hover{
+    transition: .8s;
+    background: var(--button-primary);
+}
